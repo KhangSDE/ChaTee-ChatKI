@@ -104,7 +104,7 @@ document.addEventListener("click", function(e) {
 // API KEY
 const emojiList = document.getElementById("emojiList");
 
-fetch("https://emoji-api.com/emojis?access_key=80d804dd166094752de9832d818befaaca9f9201")
+fetch("https://emoji-api.com/emojis?access_key=80d804dd166094752de9832d818b53252525") // FAKE API WEGEN SCHUTZ
     .then(res => res.json())
     .then(data => loadEmoji(data))
 
